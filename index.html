@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>..::Add_Remove_Input::..</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script src="jquery.js"></script>
+<script src="script.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div class="container">
+	<div class="content">
+		<div class="header">
+			<h1>..:: form Editor ::..</h1>
+			<img src="imgs/border.jpg" align="middle" alt="border"/> </div>
+		<div class="main_form">
+			<form action=" " method="post"  autocomplete="on" id="form_editor" name="formEditor" >
+				<p>
+					<input type="button" name="add" id="add_button" value="Add"  title="Add an empty parameter"/>
+					<button type="button" id="get_info"  title="get information of teaxtarea and users can Edit information">Get Info</button>
+					<button type="button" id="send_info"  title="send information to teaxtarea , after Edit form,ready send to server" >Send Info</button>
+					<button type="reset" id="reload_button"  title="Reload forms from the page">Reload</button>
+				</p>
+				<p>
+					<input type="text" name="username" class="form_action"  required="required" placeholder="Name..." />
+					<button type="submit" id="submit_button"  title="submit parameters of form">submit</button>
+				</p>
+				<p>
+					<textarea  placeholder="text.."  required="required"  class="form_textarea" name="outputText">Hello World ..!!
+this demo is just for testing !
+scripting by Maryam Mahmoodi..!
+Order by ITRC.
+thank you for your attention :)
+					</textarea>
+				</p>
+				<div class="form_detail"></div>
+			</form>
+			<div class="footer"></div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
