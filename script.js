@@ -87,7 +87,6 @@ $(function(){
         $(".form_detail").append(getRow(""));
     });
 
-	
 	reload();
 
 		
